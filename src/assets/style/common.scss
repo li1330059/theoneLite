@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+
+.hidden-txt-1 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.hidden-txt-2 {
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.flex-page{
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+.flex-wrapper{
+  flex: 1;
+}
+.responsive-img {
+    width: 100%;
+    display: block;
+}
+
+.bg-img {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.shopping-radius {
+    border-radius: 0.04rem;
+}
+
+.hand {
+    cursor: pointer;
+}
+
+.ml12 {
+    margin-left: 0.12rem;
+}
+
+.ml12 {
+    margin-left: 0.12rem;
+}
+
+.mt16 {
+    margin-top: 0.16rem;
+}
+.mt40 {
+    margin-top: 0.4rem;
+	color: $fc-label!important;
+}
+.mb16 {
+    margin-bottom: 0.16rem;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.q-wrap {
+    display: flex;
+    align-items: center;
+
+    &::after {
+        content: "";
+        display: block;
+        width: 0.14rem;
+        height: 0.14rem;
+        margin-left: 0.04rem;
+        background-image: url("../icon/icon-q.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}
+
+.el-message:not(:last-child) {
+    visibility: hidden;
+}
+
+.el-message {
+    top: 20px !important;
+}
+
+.el-message-box {
+    width: 4.2rem;
+}
+
+.el-popper .popper__arrow {
+    right: 10px !important;
+    left: auto !important;
+    margin-right: 0 !important;
+}
+
+.el-select-dropdown__item.selected {
+    color: $fc-active
+}
+.max-width{
+    max-width: 1300px;
+    padding: 0 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media screen and (max-width: 540px) {
+    input,textarea,select{
+        font-size: .14rem !important;
+    }
+    .max-width{
+        max-width: 100%;
+        padding: 0 .15rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+	.el-message-box {
+	    width: 90%;
+	}
+}

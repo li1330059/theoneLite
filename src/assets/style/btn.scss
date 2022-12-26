@@ -1,0 +1,69 @@
+.btn {
+    line-height: 0.37rem;
+    font-size: 0.14rem;
+    font-weight: 400;
+    text-align: center;
+    padding: 0 0.16rem;
+    min-width: 0.88rem;
+    user-select: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+.btn-lg {
+    line-height: 0.46rem;
+    padding: 0 0.32rem;
+}
+
+.btn-primary {
+	background: linear-gradient(149deg, #FF7A64 0%, $color-btn 100%);
+    color: $white;
+}
+.btn-primary-border {
+    border: 0.01rem solid $color-btn;
+    color: $fc-active;
+}
+.btn-line {
+    border: 1px solid $color-btn;
+    color: $color-btn;
+}
+.btn-white{
+	border: 0.01rem solid #ffffff;
+	color: #ffffff;
+}
+.btn-cancel{
+	border: 0.01rem solid $bc-inp;
+	color: $fc-label;
+}
+.link-btn{
+    color:rgba(0, 64, 255, 1);
+    cursor: pointer;
+}
+
+.btn-disabled {
+    color: $fc-label;
+    background: $bc-disabled;
+}
+.btn-group{
+    display: flex;
+    align-items: center;
+}
+.btn-group-end{
+    justify-content: flex-end;
+}
+
+// 重写element UI button
+.el-button--primary {
+    color: $fc-mask;
+    background-color: $color-theme !important;
+    border-color: $color-theme !important;
+}
+
+.el-button:hover {
+    border-color: $color-theme !important;
+    background-color: rgba($color: $color-theme, $alpha: 0.1) !important;
+    color: $color-theme !important;
+}

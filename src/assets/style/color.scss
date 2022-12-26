@@ -1,0 +1,99 @@
+.shopping-bg-card {
+    background-color: $color-theme;
+}
+
+/* 卡片背景颜色 */
+.shopping-bg-body {
+    background-color: $color-theme;
+}
+
+/* 侧边导航 */
+.shopping-c-slider {
+    color: $fc-title;
+}
+
+/* 侧边导航选中色 */
+.shopping-shopping-c-slider--active {
+    color: $fc-active;
+}
+
+/* 边框颜色 */
+.shopping-c-border {
+    border-color: $color-border;
+}
+
+/* 边框选中颜色 */
+.shopping-c-border--actice {
+    border-color: $fc-active;
+}
+
+/* 文字 */
+.shopping-c-active {
+    color: $fc-active;
+}
+
+/* 文字标题 */
+.shopping-c-title {
+
+    color: $fc-title;
+
+}
+
+/* 文字主文色 */
+.shopping-c-main {
+    color: $fc-main;
+}
+
+/* 文字副色 */
+.shopping-c-sub {
+    color: $fc-sub;
+}
+
+/* 文字色辅助色-3 */
+.shopping-c-active {
+    color: $fc-active;
+}
+
+/* 文字色辅助色-1 */
+.shopping-c-primary {
+    color: $color-sub;
+
+}
+
+/* 文字色辅助色-2 */
+.shopping-c-succress {
+    color: $color-sub2;
+}
+
+/* 文字色辅助色-3 */
+.shopping-c-warning {
+    color: $color-sub4;
+
+}
+
+/* 文字大小 */
+.shopping-s-silder {
+    font-size: .14rem;
+}
+
+/* 文字大小 */
+.shopping-s-user {
+    font-size: 18rem;
+}
+
+/* 标题文字大小 */
+.shopping-s-title {
+    font-size: .14rem;
+}
+
+/* 内容文字大小 */
+.shopping-s-main {
+    font-size: .12rem;
+}
+
+/* 分割线 */
+.shopping-line {
+    height: 1px;
+    margin: .16rem 0;
+    background-color: $color-border;
+}

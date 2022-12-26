@@ -1,0 +1,101 @@
+.flex {
+  display: flex;
+}
+.flex-none {
+  flex: none;
+}
+.flex-auto {
+  flex: auto;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.row-all-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.col-all-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.row-between-center {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.row-around-center {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.row-start-center {
+  display: flex;
+  align-items: center;
+}
+.row-start-end {
+  display: flex;
+  align-items: flex-end;
+}
+.col-start-start {
+  display: flex;
+  flex-direction: column;
+}
+.col-start-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.col-center-start {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.5s;
+}
+.fade-enter,
+.fade-leave-to {
+  opacity: 0;
+}
+.ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.ellipsis2 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+.ani-rotate {
+  animation: rotate 1s linear infinite;
+}
+
+
+
+// 间距
+.mb12{
+  margin-bottom: 12px;
+}
+
+
+.ui-center{
+  text-align: center;
+}
+
+.el-input__inner:focus,.el-textarea__inner:focus{
+  border: 1px solid $color-theme!important;
+}
+
+.el-input__inner,.el-textarea__inner{
+  border: 1px solid $bc-inp;
+  border-radius: $radius;
+}
+.el-dialog__header{
+  color: $fc-main;
+}

@@ -1,0 +1,278 @@
+.v1-order{
+	margin-right: .62rem;
+}
+@media screen and (max-width: 1080px) {
+	.v1-order{
+		margin-right: .16rem;
+	}
+	.order-goods {
+	    .name {
+			.title{
+				width: 10vw!important;
+			}
+		}
+	}
+}
+@media screen and (max-width: 800px) {
+	.v1-order{
+		margin-right: 0;
+	}
+}
+.v1-order-item {
+	background: #FFFFFF;
+	box-shadow: 0px 2px 42px 0px rgba(67,39,39,0.0600);
+	border-radius: $radius;
+	margin-bottom: .2rem;
+	.th{
+		background: linear-gradient(147deg, #FFF2F2 0%, #FFFDFD 70%, #FFFFFF 100%);
+		border-radius: $radius;
+		color: $fc-label;
+		display: flex;
+		align-items: center;
+		padding: .12rem .16rem;
+		line-height: .16rem;
+		.time{
+			margin-right: .3rem;
+		}
+		.copy{
+			color: $fc-main;
+		}
+		.no{
+			display: flex;
+			align-items: center;
+		}
+		.order-status-m{
+			display: none;
+		}
+	}
+    .order-content {
+        display: flex;
+        .order-info {
+            display: flex;
+			padding: .2rem .24rem;
+			border-right: 0.01rem dashed #eeeeee;
+            .shop-com-goodspic {
+                width: .7rem;
+                height: .7rem;
+				// border: 0;
+				.img-wrap{
+					padding: 0;
+				}
+            }
+
+            .order-goods {
+                // flex: 1;
+                padding: .02rem 0 0 .16rem;
+                .name {
+					margin-bottom: .08rem;
+					display: flex;
+					color: $fc-title;
+					.title{
+						font-size: .14rem;
+						font-weight: 500;
+						line-height: .2rem;
+						width: 18vw;
+						max-width: 2.5rem;
+						overflow: hidden;
+						text-overflow: ellipsis;
+						white-space: nowrap;
+					}
+                }
+
+                .amount {
+                    text-align: right;
+					font-size: .12rem;
+					line-height: .16rem;
+                }
+                .m-price{
+					display: none;
+				}
+                .label{
+                  color: $fc-label;
+                }
+
+                .v1-artist-bar {
+                    width: 100%;
+					font-size: .12rem;
+					color: $fc-label;
+					line-height: .16rem;
+                }
+            }
+        }
+		.price {
+		    color: $color-theme;
+		    font-size: 14px;
+			flex: 1;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			border-right: 0.01rem dashed #eeeeee;
+			
+		}
+		.amount-bar{
+			flex: 1;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			flex-direction: column;
+			color: #333333;
+			border-right: 0.01rem dashed #eeeeee;
+			div{
+				margin: 3px 0;
+			}
+		}
+        .order-status {
+            display: flex;
+			flex: 1;
+			text-align: center;
+            flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			border-right: 0.01rem dashed #eeeeee;
+			color: #999;
+			.time{
+				width: 1.3rem;
+				margin-top: .08rem;
+				color: $fc-main;
+			}
+        }
+		.flex-2{
+			flex: 2;
+		}
+        .order-operate {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+			flex-direction: column;
+			flex: 1;
+            .btn {
+                width: 0.96rem;
+                height: 0.31rem;
+				line-height: 0.31rem;
+				text-align: center;
+				font-size: .14rem
+            }
+			.primary{
+				background: #E93F33;
+				border-radius: 0.04rem;
+			}
+			.cancel{
+				color: #397FE7;
+			}
+			.detail{
+				background: #E5E5E5;
+				color: $fc-main;
+			}
+        }
+    }
+	.byNo{
+		display: none;
+	}
+}
+@media screen and (max-width: 800px) {
+    .v1-order-item {
+		background: linear-gradient(180deg, #FFFFFF 0%, #FFFFFF 100%);
+		box-shadow: 0px 1px 21px 0px rgba(67,39,39,0.06);
+		border-radius: 2px;
+		border: 2px solid #FFFFFF;
+		padding: 0 .16rem .16rem;
+		margin-bottom: .1rem;
+		.th{
+			color: #999;
+			display: flex;
+			align-items: center;
+			padding: .16rem 0;
+			background: none;
+			justify-content: space-between;
+			line-height: .15rem;
+			font-size: .11rem;
+			.no{
+				display: none;
+			}
+			.copy{
+				color: $fc-main;
+			}
+			.order-status-m{
+				display: block;
+			}
+		}
+        .order-content {
+            flex-direction: column;
+			border-bottom: 0;
+            .order-info {
+			  padding: 0;
+			  border: 0;
+			  .name {
+				  justify-content: space-between;
+			  	.title{
+			  		font-size: .13rem;
+			  		font-weight: 400;
+			  		line-height: .18rem;
+			  		width: 1.6rem!important;
+			  	}
+			  }
+              .order-goods{
+                padding: 0.02rem 0 0 0.1rem;
+				flex: 1;
+				.m-price{
+					display: block;
+					color: $color-theme;
+					margin-top: .18rem;
+					font-size: .16rem;
+					font-weight: 500;
+					text-align: right;
+					line-height: .23rem;
+				}	
+              }
+			  .shop-com-goodspic {
+			      width: .8rem;
+			      height: .8rem;
+			  }
+            }
+			.price{
+				display: none;
+			}
+			.v1-artist-bar{
+				font-size: .11rem!important;
+				line-height: .15rem!important;
+			}
+			.amount-bar{
+				display: none;
+			}
+            .order-status {
+				display: none;
+                flex-direction: row;
+                justify-content: space-between;
+                padding: .16rem 0;
+            }
+
+            .order-operate {
+                flex-direction: row;
+                justify-content: end;
+				margin-top: .16rem;
+                .btn {
+                    margin: 0;
+                    margin-left: 0.16rem;
+					width: 49%;
+					font-size: .12rem;
+					width: 1.3rem;
+                }
+				&:nth-last-child(1){
+				  margin-left: 0;
+				}
+				.cancel{
+					background: none;
+					color: $fc-label;
+					font-size: .13rem;
+					line-height: .19rem;
+				}
+            }
+        }
+		.byNo{
+			display: block;
+			font-size: .11rem;
+			color: $fc-label;
+			line-height: .15rem;
+		}
+    }
+}

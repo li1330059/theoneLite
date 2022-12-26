@@ -1,0 +1,47 @@
+// 面板样式
+.v1-panel {
+
+    &.s2 {
+
+        box-shadow: 0px 2px 16px 0px rgba(182, 182, 182, 0.16);
+        border-radius: 4px;
+        padding: 0.16rem 0.32rem 0.32rem;
+
+        .panel-title {
+            margin-bottom: 0.08rem;
+        }
+    }
+
+    .panel-title {
+        font-size: 0.14rem;
+        color: $fc-title;
+        padding: 0.14rem 0 0.14rem 0.2rem;
+        position: relative;
+
+        &::before {
+            content: '';
+            width: 0.08rem;
+            height: 0.08rem;
+            background: $fc-active;
+            position: absolute;
+            top: 50%;
+            left: 0;
+            transform: translateY(-50%);
+        }
+    }
+
+    .panel-content {
+        padding-left: 0.2rem;
+    }
+
+
+}
+
+@media screen and (max-width: 540px) {
+    .v1-panel {
+
+        &.s2 {
+            padding: 0.08rem 0.16rem 0.16rem;
+        }
+    }
+}

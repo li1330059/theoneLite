@@ -1,0 +1,35 @@
+$white: #fff !default;
+$color: #333333 !default; //默认字色
+
+$red-1: rgba(238, 66, 66, 1) !default;
+
+$radius: 0.04rem !default;
+
+// 默认主题
+$color-theme:#E61F1A;    // 主体色
+$color-sub:#397FE7;;      // 点缀色
+$color-sub2:#29C445;     // 点缀色2
+$color-sub3:#F6F6F6;     // 点缀色3
+$color-sub4:#F4A33A;    // 点缀色3
+$color-card:#fff;        // 卡片色
+$color-btn:#E61F1A;;        // 卡片色
+$color-secondary:#f0f0f0;        // 次要按钮，ul展开区域灰色底色，悬停色等
+$color-ul:#f9f9f9;        // ul展开区域灰色底色
+
+$fc-title: #333;      // 一级标题色
+$fc-sub: #666;        // 二级标题色
+$fc-label: #999999;        // 二级标题色
+$fc-main: #666;          // 文本色
+$fc-active: #E61F1A;     // 文本点亮色
+$fc-mask: #fff;          // 有深色背景色上文字颜色
+$fc-wel: #000000;	//welcome
+
+
+$color-border:#F5F5F5;      // 边框颜色
+$color-background:#F5F5F5;      // 边框颜色
+$bc-dashed:#F5F5F5;		//虚线颜色
+$bc-pli:#F5F5F5;     // 父级元素类模块深色版本li边框颜色
+$bc-cli:#F5F5F5;      // 子级元素类模块li边框颜色
+$bc-inp:#F5F5F5;      // input边框颜色
+$bc-disabled:#F5F5F5;      // input 未选中
+$bc-bottom:#F5F5F5;
